@@ -1,0 +1,20 @@
+.servicesDiv {
+  padding: 10mm 40mm;
+  color: #e4e4e4;
+  font-size: 110%;
+}
+
+.servicesSecHead {
+  margin-bottom: 2mm;
+  text-shadow: #000000 2.2px 2.2px 2.2px;
+  color: #f5f5f5;
+}
+
+.servicesSection {
+  margin-bottom: 10mm;
+}
+
+.servicesList {
+  list-style: disc;
+  margin-left: 7mm;
+}

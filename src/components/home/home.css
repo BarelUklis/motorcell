@@ -1,0 +1,89 @@
+.carouselMain {
+  position: absolute;
+  width: 99vw;
+  height: 60vh;
+  margin: 0;
+  margin-left: -5.5mm;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 2mm 1mm;
+  margin-top: 10mm;
+  background: rgb(218, 220, 225);
+  background: linear-gradient(
+    0deg,
+    rgba(218, 220, 225, 0.2) 0%,
+    rgba(48, 48, 49, 1) 90%
+  );
+}
+
+.carouselHeadlings {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-size: 130%;
+  margin-top: -8mm;
+}
+
+.headlingC {
+  color: #dadce1;
+  margin-right: 4mm;
+  font-weight: 400;
+}
+
+.carouselPicDiv {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick-dots-bottom {
+  position: absolute !important;
+  bottom: 0 !important;
+  margin-bottom: -8mm;
+}
+
+.carouselPic {
+  max-width: 40vw;
+  margin: auto;
+  text-align: center;
+}
+
+.fade-appear {
+  opacity: 0;
+}
+
+.fade-appear-active {
+  opacity: 1;
+  transition: all 1000ms linear;
+}
+
+.fade-appear-exit {
+  opacity: 1;
+}
+.fade-appear-exit-active {
+  opacity: 0;
+  transition: all 1000ms ease;
+}
+
+.servicesDivHome {
+  margin-top: 75vh;
+  color: #e4e4e4;
+  padding: 0mm 40mm;
+  font-size: 110%;
+}
+
+.homeList {
+  display: flex;
+  flex-wrap: wrap;
+  width: 150mm;
+}
+
+.homeListItem {
+  margin-right: 15mm;
+}
