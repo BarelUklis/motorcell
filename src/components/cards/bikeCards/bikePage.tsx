@@ -1,6 +1,4 @@
 import * as React from 'react';
-import { Component } from 'react';
-import {CSSTransition} from 'react-transition-group';
 import { useNavigate, useParams } from 'react-router-dom';
 import { Motorcycle } from '../../../webServices/motorcycles';
 import './bikePage.css';
